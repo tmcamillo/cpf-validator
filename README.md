@@ -5,14 +5,14 @@ Na versão atual é capaz de retornar se o número informado é valido ou não.
 ## Como instalar:
 
 ```
-$  npm install cpf-validator
+$  npm install cpf-validator-tmc
 ```
 
 ## Como utilizar:
 
 ```
-> const cpfValidator = require('cpf-validator');
-> console.log(cpfValidator('12345678909'));<br>
+> const cpfValidator = require('cpf-validator-tmc');
+> console.log(cpfValidator('12345678909'));
 > // returns 'true'
 ```
 
