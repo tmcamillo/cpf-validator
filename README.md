@@ -11,9 +11,9 @@ $  npm install cpf-validator
 ## Como utilizar:
 
 ```
-<p> const cpfValidator = require('cpf-validator'); <br>
+> const cpfValidator = require('cpf-validator');
 > console.log(cpfValidator('12345678909'));<br>
-> // returns 'true'</></p>
+> // returns 'true'
 ```
 
 ## roadmap oficial do projeto*
