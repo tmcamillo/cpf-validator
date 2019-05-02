@@ -37,7 +37,6 @@ const cpfValidator = (cpf) => {
   if (digit1 !== parseInt(arrayCpf[ 9 ]) || digit2 !== parseInt(arrayCpf[ 10 ])) {
     return false;
   }
-	
   return true;
 };
 
