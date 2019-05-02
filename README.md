@@ -3,13 +3,18 @@ Esta biblioteca destina-se à validação de números de CPF.
 Na versão atual é capaz de retornar se o número informado é valido ou não.
 
 ## Como instalar:
+
+```
 $  npm install cpf-validator
+```
 
 ## Como utilizar:
 
-<p>> const cpfValidator = require('cpf-validator'); <br>
+```
+<p> const cpfValidator = require('cpf-validator'); <br>
 > console.log(cpfValidator('12345678909'));<br>
 > // returns 'true'</></p>
+```
 
 ## roadmap oficial do projeto*
 
