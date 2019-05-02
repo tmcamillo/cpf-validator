@@ -41,5 +41,3 @@ const cpfValidator = (cpf) => {
 };
 
 module.exports = cpfValidator;
-
-

@@ -29,6 +29,10 @@ module.exports = {
             "error",
             "always"
         ],
+        "padded-blocks": [
+            "error",
+            "never"
+        ],
         "camelcase": 2,
         "id-length": 2,
         "keyword-spacing": 2,
@@ -43,7 +47,6 @@ module.exports = {
         "space-before-function-paren": 2,
         "func-call-spacing": 2,
         "no-multiple-empty-lines": 2,
-        "padded-blocks": 2,
         "no-floating-decimal": 2,
         "object-property-newline": 2,
         "brace-style": 2,
