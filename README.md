@@ -13,14 +13,14 @@ $  npm install cpf-validator-tmc
 Exemplo de retorno válido: 
 
 ```javascript
- const validator = require('cpf-validator-tmc');
- validator.cpfvalidator("12345678909") //true
+ const cpfvalidator = require('cpf-validator-tmc');
+ console.log(cpfvalidator("12345678909")); //true
 ```
 Exemplo de retorno inválido: 
 
 ```javascript
- const validator = require('cpf-validator-tmc');
- validator.cpfvalidator("22222222222") //false
+ const cpfvalidator = require('cpf-validator-tmc');
+ console.log(cpfvalidator("11111111111")); //false
 ```  
 
 ## roadmap oficial do projeto*
