@@ -2,12 +2,8 @@ const cleanCpf = (cpf) => {
   return cpf.toString().replace(/[^\d]+/g, '');
 };
 
-const convertCpfToArray = (cpf) => {
-  return Array.from(cpf);
-};
-
 const isRepeatingChars = (cpf) => {
-  return convertCpfToArray(cpf).every((elem) => elem === cpf[ 0 ]);
+  return Array.from(cpf).every((elem) => elem === cpf[ 0 ]);
 };
 
 const checkDigit = (cpf, initialNumber) => {
@@ -23,7 +19,7 @@ const validateDigit = (digit) => {
 
 const cpfValidator = (cpf) => {
   const cleanedCpf = cleanCpf(cpf); 
-  const arrayCpf = convertCpfToArray(cleanedCpf);
+  const arrayCpf = Array.from(cleanedCpf);
   if (cleanedCpf.length !== 11 || isRepeatingChars(cleanedCpf)) {
     return false;
   }
