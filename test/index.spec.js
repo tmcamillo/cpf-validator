@@ -35,4 +35,8 @@ describe('returnsValidatorCpf()', () => {
     it('special characters will be remove and must return true', () => {
         assert.equal(returnsValidatorCpf('365941238-40'), true);
     });
+
+    it('must return false', () => {
+        assert.equal(returnsValidatorCpf(''), false);
+    });
 });
